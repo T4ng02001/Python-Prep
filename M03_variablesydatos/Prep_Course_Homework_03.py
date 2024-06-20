@@ -206,4 +206,13 @@ pi = 3.1416
 # In[30]:
 
 
+def myFuction(numero,exponente):
+    if not isinstance(numero,int):
+        return None
+    if not isinstance(exponente,int):
+        return None
+    return numero**exponente
 
+
+s = "python"
+print(s.replace("p", "j"))
